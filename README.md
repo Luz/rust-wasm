@@ -14,3 +14,13 @@ npm install serve
 npm run serve
 Open browser with http://localhost:8080
 ```
+
+# Quick summary for NixOS
+## Use once
+```Shell
+nix-shell --run "npm install webpack"
+```
+## Then use
+```Shell
+nix-shell --run "npm run serve"
+```
